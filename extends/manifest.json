@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "获取书签地址",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://developer.chrome.com/*"],
+  "permissions": ["tabGroups", "bookmarks"]
+}

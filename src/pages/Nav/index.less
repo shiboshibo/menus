@@ -1,0 +1,51 @@
+.wrap {
+  // width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin: 0 auto;
+  width: 1080px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  a {
+    width: 164px;
+    display: inline-block;
+    margin-right: 5px;
+    height: 42px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    span {
+      vertical-align: middle;
+    }
+  }
+}
+
+.right {
+  position: fixed;
+  right: 0;
+  top: 120px;
+  margin-left: 10px;
+  z-index: 1000;
+  width: 200px;
+  // height: 600px;
+  // overflow-x: hidden;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+.ant-anchor-wrapper {
+  max-height: 600px !important;
+}
